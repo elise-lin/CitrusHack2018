@@ -1,0 +1,59 @@
+body {
+    /*background: linear-gradient(#bfff80, black);*/
+    /*background-attachment: fixed;*/
+    color: black;
+    text-align: center;
+    font-family: 'Actor';
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5.5%;
+    
+    background: linear-gradient(180deg, #99f39d, #011a02);
+    background-size: 400% 9400%;
+
+    -webkit-animation: AnimationName 13s ease;
+    -moz-animation: AnimationName 13s ease;
+    animation: AnimationName 13s ease;
+}
+
+p {
+    padding: 5%;
+}
+
+img {
+    width: 24%;
+    height: 28%;
+}
+
+center {
+    font-size: 220%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.Main {
+    background: white;
+    width: 55%;
+    padding: 25px; 
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}

@@ -1,0 +1,57 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
+}
+
+h1 {
+    font-size: 70px;
+}
+h3{
+    text-shadow: 1px 1px 2px #787878;
+}
+body {
+    background-attachment: fixed;
+    background-color: hsla(120,60%,70%,0.3);
+    background: linear-gradient(#ff9900, #99ff99);
+    color: black;
+    text-align: center;
+    font-family: 'Actor';font-size: 22px;
+    font-weight: bold;
+}
+
+img {
+    width:100%;
+    height:40%;
+    border-radius:50%;
+    /*margin-bottom: 5%;*/
+    padding-top: 4%;
+}
+
+
+html { 
+   background: linear-gradient(#ff9900, #99ff99);
+}
+
+.Main {
+    background-color: White;
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+}
+
+.Authors {
+    font-size: 60%;
+    padding-bottom: 2%;
+}
